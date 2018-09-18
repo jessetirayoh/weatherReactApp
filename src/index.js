@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 import App from "./App";
 // import Test from "./Test";
 import registerServiceWorker from "./registerServiceWorker";
-import "bootstrap/dist/css/bootstrap.css";
+
 // import Counter from "./components/counter";
 
 ReactDOM.render(<App />, document.getElementById("root"));
